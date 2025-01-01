@@ -1,0 +1,11 @@
+{
+  "commands": [
+    "npm install",
+    "npm start",
+    "npm run dev",
+    "docker build -t fitness-tracker-image .",
+    "docker run -p 5000:5000 fitness-tracker-image",
+    "docker-compose up -d --build",
+    "mongod --dbpath $PROJECT_ROOT/db"
+  ]
+}
